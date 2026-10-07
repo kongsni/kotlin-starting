@@ -6,5 +6,6 @@ fun main() {
 
     // number = 20
 
-    message = "hello, Kotlin"
+    message = "Kotlin"
+    println("hello " + message)
 }
