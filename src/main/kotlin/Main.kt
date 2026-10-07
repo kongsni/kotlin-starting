@@ -2,10 +2,8 @@ package com.back
 
 fun main() {
     val number = 10
-    var message = "hello, world"
 
-    // number = 20
+    val str = if(number % 2 == 0) "Even" else "Odd"
 
-    message = "Kotlin"
-    println("hello ${message}" )
+    println(str)
 }
