@@ -1,9 +1,12 @@
 package com.back
 
-fun main() {
-    val number = 10
+fun main(args: Array<String>) {
+    for (i in 0 until 5) {
+        println("Count: ${i}")
+    }
 
-    val str = if(number % 2 == 0) "Even" else "Odd"
+    for (i in 0 .. 4) {
+        println("Count: ${i}")
+    }
 
-    println(str)
 }
