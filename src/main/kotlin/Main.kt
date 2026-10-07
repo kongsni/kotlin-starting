@@ -1,12 +1,10 @@
 package com.back
 
-fun main(args: Array<String>) {
-    for (i in 0 until 5) {
-        println("Count: ${i}")
+    // 함수 선언과 호출
+    fun main() {
+        val result = add(5, 10)
+        println("Result: $result")
     }
 
-    for (i in 0 .. 4) {
-        println("Count: ${i}")
-    }
-
+    fun add(a: Int, b: Int): Int {return a + b}
 }
