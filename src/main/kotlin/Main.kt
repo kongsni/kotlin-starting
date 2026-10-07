@@ -7,5 +7,5 @@ fun main() {
     // number = 20
 
     message = "Kotlin"
-    println("hello " + message)
+    println("hello ${message}" )
 }
